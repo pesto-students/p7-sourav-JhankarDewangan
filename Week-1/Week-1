@@ -1,1 +1,58 @@
+1. When a user enters an URL in the browser, how does the browser fetch the desired result? Explain this with the below in mind and Demonstrate this by drawing a diagram for the same.
+Answer. The full form of the URL is Uniform Resource Locator. URL is the website's address, which you can find in the address bar of your web browser. It looks for the IP address which is connected with the URL, and when we type the URL it fetches, and that is how the browser fetches the result.
+
+a.What is the main functionality of the browser?
+Answer. The main task is to collect information from the Internet and make it accessible to users.
+
+b. High-Level Components of a browser?
+Answer.  The 7 types are-
+User Interface - This is the forefront of the browser which a user sees. It contains the address bar holding the resource URL and various controls like home, back, forward and refresh actions.
+Browser Engine - This component acts as a bridge between the use interface and the rendering engine. It manages and manipulates the rendering engine based on the inputs from all user interfaces.
+Rendering Engine - The rendering engine, as the name suggests is responsible for rendering the requested web page on the browser screen. The rendering engine interprets the HTML, XML documents and images that are formatted using CSS and various parsers. Then it generates the layout that is displayed in the User Interface.
+Network - This component retrieves URLs based on common web protocols like HTTP, HTTPS and FTP. It also manages communication and security. It sometimes creates a cache of documents to reduce network traffic laod.
+JavaScript Engine - It interprets and executes all JavaScript code embedded in a webpage. While the scripts execute, all parsers are kept on hold until completion.
+UI Backend - This component exposes a generic interface, that is not platform-specific, to draw simple widgets like input boxes other input controls. Underneath it leverages the OS's user interface methods.
+Data persistence/Storage - This component supports browser storage mechanisms like Local Storage, IndexedDB, WebSQL and File System. It is a small database created on the local drive where the browser is installed and manages things like cache, cookies, bookmarks and preferences.
+
+c.Rendering engine and its use.
+Answer. This is responsible for rendering a specific web page requested by the user on their screen. It interprets HTML and XML documents along with images that are styled or formatted using CSS, and a final layout is generated, which is displayed on the user interface.
+
+d.Parsers (HTML, CSS, etc).
+Answer.A Parser is a compiler or interpreter that breaks data into smaller elements for easy translation into another form or language. 
+## HTML Parser
+
+- HTML Parser - the HTML documents undergoes a process called "tokenization" which breaks the code into smaller blocks which are easy to parse.
+- once the parsing of HTML begins, the elements are converted into DOM nodes which then are used to construct a DOM tree.
+- DOM tree is what is accessed using JavaScript.
+
+## CSS Parser
+
+- In a fashion similar to HTML parser, the CSS parser parses the CSS documents to contruct a CSSOM (CSS Object Model).
+
+e.Script Processors.
+Answer.A Script Processor allows you to specify your own processor logic using JavaScript. On the web there are two basic types of scripts:
+
+## Client Side Scipts
+
+- These are the scripts present on the client-side and responsible for the interaction between the user and the webpage.
+- These are first downloaded on the client-side(browser) and then interpreted and exceuted by it.
+
+## Server Side scripts
+
+- These scripts are mainly responsible for carrying out tasks on the server-end and then returning the response to the client-end(browser).
+
+f.Tree construction
+Answer.Tree construction is carried out by the browser whenever a document is parsed.
+- The HTML parser and CSS parser both construct their respective Object Model trees.
+- Apart from DOM and CSSOM trees, browsers also create a "Render Tree" used in the layouting and painting phases.
+
+g.Order of script processing
+Answer.
+h.Layout and Painting.
+Answer.
+
+
+
+
+
 
