@@ -42,9 +42,7 @@ Answer.A Script Processor allows you to specify your own processor logic using J
 - These scripts are mainly responsible for carrying out tasks on the server-end and then returning the response to the client-end(browser).
 
 f.Tree construction
-Answer.Tree construction is carried out by the browser whenever a document is parsed.
-- The HTML parser and CSS parser both construct their respective Object Model trees.
-- Apart from DOM and CSSOM trees, browsers also create a "Render Tree" used in the layouting and painting phases.
+Answer.Tree construction is carried out by the browser whenever a document is parsed.The HTML parser and CSS parser both construct their respective Object Model trees.
 
 g.Order of script processing
 Answer.
