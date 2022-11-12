@@ -16,7 +16,7 @@
 
 <body>
 
-    <aside class="sidebar-nav">
+    <Header class="sidebar-nav">
         <ul>
             <li>
                 <a href="" rel="noopener noreferrer">
@@ -59,12 +59,12 @@
                 </a>
             </li>
         </ul>
-    </aside>
+    </Header>
 
     <main>
         <div class="header">
             <div class="header-main">
-                <img src="https://vif1g.csb.app/src/assets/cattyboard.jpg" alt="" srcset="">
+                <img src="https://vif1g.csb.app/src/assets/cattyboard.jpg" >
 
                 <div class="header-disc">
                     <div>
@@ -132,7 +132,7 @@
         </div>
 
         <div class="player">
-            <img src="https://vif1g.csb.app/src/assets/cattyboard.jpg" alt="" srcset="">
+            <img src="https://vif1g.csb.app/src/assets/cattyboard.jpg" >
             <div class="info">
                 <h4>If It Ain't Love</h4>
                 <h4>Catson Derulo</h4>
