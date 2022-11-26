@@ -1,0 +1,81 @@
+.container{
+    width: fit-content;
+    height: fit-content;
+    position: relative;
+    left: 37.5%;
+    font-size: 0px;
+}
+body{
+    text-align: center;
+
+
+    display:flex;
+}
+.text {
+    font-size: 70px;
+    width: 250px;
+    height: 250px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+  }
+
+.container .topLeftBox{
+    width: 150px;
+    height: 150px;
+    position: relative;
+    background-color: red;
+    display: inline-block;
+    transition-property: all;
+    transition-duration: 1s;
+}
+.container:hover .topLeftBox{
+    transform: rotate(90deg);
+    transform-origin: 0% 0%;
+}
+
+.container .topRightBox{
+    width: 150px;
+    height: 150px;
+    position: relative;
+    background-color: yellow;
+    display: inline-block;
+    transition-property: all;
+    transition-duration: 1s;
+}
+
+.container:hover .topRightBox{
+    transform: rotate(-90deg);
+    transform-origin: 100% 0%;
+}
+
+.container .bottomLeftBox{
+    width: 150px;
+    height: 150px;
+    position: relative;
+    background-color: blue;
+    display: inline-block;
+    transition-property: all;
+    transition-duration: 1s;
+}
+
+.container:hover .bottomLeftBox{
+    transform: rotate(-90deg);
+    transform-origin: 0% 100%;
+}
+
+.container .bottomRightBox{
+    width: 150px;
+    height: 150px;
+    position: relative;
+    background-color: green;
+    display: inline-block;
+    transition-property: all;
+    transition-duration: 1s;
+}
+
+.container:hover .bottomRightBox{
+    transform: rotate(90deg);
+    transform-origin: 100% 100%;
+}
