@@ -1,0 +1,70 @@
+body{
+    font-family: "Roboto", "sans-serif";
+    
+    background-color: #bafae8;
+}
+
+header{
+    text-align: center;
+    padding: 2vw 10vw;
+    font-weight: 700;
+    
+}
+.row{
+    display: flex;
+    flex-wrap: wrap;
+}
+.column{
+flex:50%;
+}
+.colunm-side {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.item{
+    margin: 1rem 0rem;
+}
+h2{
+padding: 0.1rem ;
+}
+.column>.item{
+    height: 100%;
+    width: 100%;
+
+}
+.item>p{
+    font-size: 16px;
+    font-family:sans-serif;
+}
+.form {
+    margin: 1rem;
+    width: 60%;
+    left:0;
+
+  }
+.form-control {
+    display: flex;
+    margin-bottom:1rem;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    border-radius: 10px;
+    justify-content: flex-start;
+    align-content:center
+  }
+
+  .form-control .label {
+    width: 30%;
+  }
+  
+.form-control input[type="text"],
+.form-control input[type="email"],
+.form-control input[type="password"],
+.form-control select {
+  display: block;
+  width: 50%;
+  font-weight: 400;
+  
+}
+
